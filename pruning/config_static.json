@@ -1,0 +1,5 @@
+{
+  "group_size": 16,
+  "selection_criterion": "l1_group",
+  "seed": 42
+}

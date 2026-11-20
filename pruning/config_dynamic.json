@@ -1,0 +1,7 @@
+{
+  "group_size": 16,
+  "tile_size": 128,
+  "density_threshold": 0.5,
+  "selection_criterion": "l1_group",
+  "seed": 42
+}

@@ -1,0 +1,39 @@
+# Environnement Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Checkpoints et modeles
+ckpts/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+ckpts.zip
+
+# Donnees et nuages de points
+*.ply
+*.vox
+*.npy
+*.npz
+
+# Resultats, sorties et logs
+output/
+results/
+logs/
+*.bin
+*.csv
+*.jpg
+*.jpeg
+*.png
+
+# EnergiBridge
+*_energibridge.csv
+*_energibridge.csv.log
+
+# Fichiers systeme
+.DS_Store
+Thumbs.db
