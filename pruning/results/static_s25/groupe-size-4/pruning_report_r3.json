@@ -1,0 +1,755 @@
+{
+    "mode": "static",
+    "sparsity": 0.25,
+    "group_size": 4,
+    "num_conv_layers": 106,
+    "layers": {
+        "encoder.conv0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.down0": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "encoder.block0.0.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block0.0.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block0.0.conv1_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 32,
+            "skipped": false
+        },
+        "encoder.block0.0.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block0.0.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "encoder.block0.1.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block0.1.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block0.1.conv1_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 32,
+            "skipped": false
+        },
+        "encoder.block0.1.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block0.1.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "encoder.block0.2.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block0.2.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block0.2.conv1_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 32,
+            "skipped": false
+        },
+        "encoder.block0.2.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block0.2.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "encoder.conv1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.down1": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "encoder.block1.0.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block1.0.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block1.0.conv1_0": {
+            "pruned_groups": 4,
+            "group_size": 4,
+            "pruned_output_channels": 16,
+            "out_channels": 64,
+            "skipped": false
+        },
+        "encoder.block1.0.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block1.0.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 16,
+            "skipped": false
+        },
+        "encoder.block1.1.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block1.1.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block1.1.conv1_0": {
+            "pruned_groups": 4,
+            "group_size": 4,
+            "pruned_output_channels": 16,
+            "out_channels": 64,
+            "skipped": false
+        },
+        "encoder.block1.1.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block1.1.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 16,
+            "skipped": false
+        },
+        "encoder.block1.2.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block1.2.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block1.2.conv1_0": {
+            "pruned_groups": 4,
+            "group_size": 4,
+            "pruned_output_channels": 16,
+            "out_channels": 64,
+            "skipped": false
+        },
+        "encoder.block1.2.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block1.2.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 16,
+            "skipped": false
+        },
+        "encoder.conv2": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.down2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "encoder.block2.0.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block2.0.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block2.0.conv1_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 32,
+            "skipped": false
+        },
+        "encoder.block2.0.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block2.0.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "encoder.block2.1.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block2.1.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block2.1.conv1_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 32,
+            "skipped": false
+        },
+        "encoder.block2.1.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block2.1.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "encoder.block2.2.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block2.2.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block2.2.conv1_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 32,
+            "skipped": false
+        },
+        "encoder.block2.2.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "encoder.block2.2.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "encoder.conv3": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.up0": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "decoder.conv0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block0.0.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block0.0.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block0.0.conv1_0": {
+            "pruned_groups": 4,
+            "group_size": 4,
+            "pruned_output_channels": 16,
+            "out_channels": 64,
+            "skipped": false
+        },
+        "decoder.block0.0.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block0.0.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 16,
+            "skipped": false
+        },
+        "decoder.block0.1.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block0.1.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block0.1.conv1_0": {
+            "pruned_groups": 4,
+            "group_size": 4,
+            "pruned_output_channels": 16,
+            "out_channels": 64,
+            "skipped": false
+        },
+        "decoder.block0.1.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block0.1.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 16,
+            "skipped": false
+        },
+        "decoder.block0.2.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block0.2.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block0.2.conv1_0": {
+            "pruned_groups": 4,
+            "group_size": 4,
+            "pruned_output_channels": 16,
+            "out_channels": 64,
+            "skipped": false
+        },
+        "decoder.block0.2.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block0.2.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 16,
+            "skipped": false
+        },
+        "decoder.conv0_cls": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.up1": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "decoder.conv1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block1.0.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block1.0.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block1.0.conv1_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 32,
+            "skipped": false
+        },
+        "decoder.block1.0.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block1.0.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "decoder.block1.1.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block1.1.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block1.1.conv1_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 32,
+            "skipped": false
+        },
+        "decoder.block1.1.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block1.1.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "decoder.block1.2.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block1.2.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block1.2.conv1_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 32,
+            "skipped": false
+        },
+        "decoder.block1.2.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block1.2.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "decoder.conv1_cls": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.up2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 8,
+            "skipped": false
+        },
+        "decoder.conv2": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block2.0.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block2.0.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block2.0.conv1_0": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 16,
+            "skipped": false
+        },
+        "decoder.block2.0.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block2.0.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 4,
+            "skipped": false
+        },
+        "decoder.block2.1.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block2.1.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block2.1.conv1_0": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 16,
+            "skipped": false
+        },
+        "decoder.block2.1.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block2.1.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 4,
+            "skipped": false
+        },
+        "decoder.block2.2.conv0_0": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block2.2.conv0_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block2.2.conv1_0": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 16,
+            "skipped": false
+        },
+        "decoder.block2.2.conv1_1": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        },
+        "decoder.block2.2.conv1_2": {
+            "pruned_groups": 1,
+            "group_size": 4,
+            "pruned_output_channels": 4,
+            "out_channels": 4,
+            "skipped": false
+        },
+        "decoder.conv2_cls": {
+            "pruned_groups": 2,
+            "group_size": 4,
+            "pruned_output_channels": 8,
+            "out_channels": 27,
+            "skipped": false
+        }
+    },
+    "skipped_layers": [],
+    "total_parameters": 778487,
+    "active_parameters": 536167,
+    "parameter_sparsity": 0.311270451529698,
+    "pruned_output_channels": 788
+}
